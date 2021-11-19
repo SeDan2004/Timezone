@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.CsvTxt {
+
+  border-bottom: 2px solid white;
+  padding-left: 1rem;
+  height: 2.5rem;
+  padding-top: 1rem;
+
+}
+
+.CsvList {
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4rem auto;
+    width: 98%;
+    border-radius: 10px;
+
+}
+
+.header {
+
+  background-color: blue;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 50px black;
+
+}
+
+.header input {
+  width: 250px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.header input:hover {
+  
+  background-color: white;
+  color: blue;
+
+}
+
+.CsvTable {
+
+  display: grid;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.h2Elem {
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: yellow;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 2rem;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-right: 2rem;
+
+}
+
+.h2Elem:hover {
+  color: lime;
+}
+
+.DivHr {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+
+.AllModules {
+  transition: 0.8s;
+  opacity: 100%;
+}
+
+.ModulesDiv {
+  background-color: gold;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 94%;
+  height: 70px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+.ModulesDiv h2:first-child{
+  margin-left: 1rem;
+  margin-top: 1.3rem;
+}
+
+.ModulesDiv div {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  margin-left: 67rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.ModulesDiv div * {
+  color: gold;
+  position: relative;
+  user-select: none;
+  left: -0.2rem;
+  top: -1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.AllOptionsDiv {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.OptionDiv {
+  width: 94%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+  margin: 0rem auto;
+  border: 3px solid black;
+  user-select: none;
+  border-top: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  top: -10rem;
+}
+
+.setColor {
+  background-color: green;
+  color: white;
+}
+
+.removeColor {
+  background-color: gold;
+  color: black;
+}
+
+.ModulesList {
+  background-color: lime;
+  border: 5px solid grey;
+  border-radius: 8px;
+  transition: 0.8s;
+  opacity: 0%;
+  margin: -2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 97.5%;
+  margin-left: 1%;
+  position: relative;
+  color: white;
+}
+
+.ModulesList h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.ModuleOptionDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  background-color: darkblue;
+  border: 4px solid rgb(129, 129, 129);
+  height: 100px;
+  width: 95%;
+  color: gold;
+  padding-left: 1.5rem;
+}
+
+.ModuleOptionDiv h2 {
+  margin-top: 1rem;
+}
+
+.ModuleOptionDiv input {
+  position: relative;
+  font-size: 1.2rem;
+  width: 160px;
+  height: 30px;
+  margin-left: 86.5%;
+  margin-top: -0.2rem;
+  background-color: red;
+  transition: 0.3s;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.ModuleOptionDiv input:hover {
+  background-color: green;
+}
+
+.CloseInput {
+  height: 35px;
+  font-size: 1.2rem;
+  width: 100px;
+  margin-left: 91%;
+  margin-bottom: 0.5rem;
+  background-color: indigo;
+  color: aqua;
+  cursor: pointer;
+}
