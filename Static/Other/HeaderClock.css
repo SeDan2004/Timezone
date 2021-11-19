@@ -1,0 +1,22 @@
+.CurrentTime {
+
+    width: 166px;
+    height: 30px;
+    overflow: hidden;
+    margin-left: 34px;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #00FF00;
+    font-size: 27px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+.CurrentTime p {
+  
+  margin-top: -0.2rem;
+  transition: 2s;
+  
+}

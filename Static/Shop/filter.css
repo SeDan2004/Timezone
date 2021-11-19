@@ -1,0 +1,22 @@
+.OpenFilter {
+
+    margin-left: 29px;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 165px;
+    margin-top: 0.6rem;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+  
+  }
+  
+  .OpenFilter:hover {
+    background-color: rgb(200, 170, 0);
+  }
+  
+  .OpenFilter:not(:hover) {
+    background-color: gold;
+  }

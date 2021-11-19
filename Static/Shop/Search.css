@@ -1,0 +1,31 @@
+.SearchAll {
+  
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .SearchObject {
+  
+      text-align: center;
+      margin-left: -5rem;
+      font-size: 24px;
+      height: 35px;
+      margin-top: 13px;
+      position: relative;
+      left: -2rem;
+    
+  }
+  
+    .AcceptInput {
+  
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+      font-weight: 700;
+      width: 131px;
+      margin-left: 17rem;
+      height: 30px;
+      margin-top: 0.6rem;
+    
+    }

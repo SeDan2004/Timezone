@@ -1,0 +1,40 @@
+.ShowBacket {
+
+    width: 175px;
+    transition: 0.3s;
+    margin-top: 0.8rem;
+    margin-left: 7.2rem;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: khaki;
+    cursor: pointer;
+    padding-top: 0.1rem;
+  
+  }
+  
+  .ShowBacket p:first-child {
+  
+    font-size: 18px;
+    font-weight: 500;
+  
+  }
+  
+  .ShowBacket img:last-child {
+  
+    margin-top: 0.05rem;
+    margin-left: 0.4rem;
+    width: 26px;
+    height: 26px;
+  
+  }
+  
+  .ShowBacket:hover {
+    background-color: rgb(185, 179, 108);
+  }
+  
+  .ShowBacket:not(:hover) {
+    background-color: khaki;
+  }

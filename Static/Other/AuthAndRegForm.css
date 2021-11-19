@@ -1,0 +1,299 @@
+body {
+    background: linear-gradient(
+    107.54deg,
+  rgba(0, 0, 0, 0.5) 50.73%,
+  rgba(0, 0, 0, 0) 100%),
+  #1400FF;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.WelcomeTxt {
+  margin-left: 1rem;
+}
+
+.Home {
+  cursor: pointer;
+}
+
+.AuthAndRegLink {
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.Home:hover {
+  color: lime;
+}
+
+.AuthAndRegLink:hover {
+  color: lime;
+}
+
+.CentralDiv {
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 3vh;
+  width: 968px;
+  height: 518px;
+  background: linear-gradient(
+      105.98deg,
+      rgba(36, 0, 255, 0.6) 37.46%,
+      rgba(0, 0, 0, 0) 100%),
+      #FFD700;
+}
+
+/*Классы для регистрации*/
+
+.RegTxt {
+  color: white;
+  position: relative;
+  top: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Form {
+  width: 872px;
+  height: 372px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.TxtForm {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+.InputAccept {
+  background: rgba(0, 0, 255, 0.5);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin-left: 83%;
+  margin-top: 1rem;
+  height: 40px;
+  cursor: pointer;
+}
+
+.ContentBoxReg {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5rem;
+  margin-top: -2rem;
+}
+
+.RightDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+  margin-left: 10rem;
+}
+
+.LeftDiv p {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LeftDiv input {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: none;
+  margin-left: 1.5rem;
+  width: 240px;
+  height: 26px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: -0.5rem;
+}
+
+.LeftDiv input::placeholder {
+  color: white;
+  font-size: 1.4rem;
+  opacity: 35%;
+}
+
+.RightDiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.RightDiv input {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
+  margin-top: -0.5rem;
+  width: 330px;
+}
+
+.RightDiv input::placeholder {
+  opacity: 35%;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.Warning {
+  margin: 1.5rem 0.5rem auto;
+  position: absolute;
+  visibility: hidden;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.NumberPhone {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  width: 50px;
+  margin-left: -2.2rem;
+  margin-top: 8.6rem;
+}
+
+.NumberPhone input {
+  width: 40px;
+  position: relative;
+  top: 1.8rem;
+}
+
+.NumberPhone p {
+    position: relative;
+    left: 0.7rem;
+}
+
+.PhoneNumberTxt {
+  position: relative;
+  top: 1.3rem;
+  color: white;
+  margin-left: 13.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Классы для авторизации*/
+
+.AuthTxt {
+  color: white;
+  position: relative;
+  top: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContentBoxAuth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: -15rem;
+}
+
+.LoginDiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.LoginDiv input {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  height: 50px;
+  margin-top: 1.4rem;
+  width: 350px;
+  position: relative;
+  left: 5rem;
+}
+
+.LoginDiv input::placeholder {
+  color: white;
+  font-size: 1.8rem;
+  opacity: 35%;
+}
+
+.PassDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: -13.8rem;
+}
+
+.PassDiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.PassDiv input {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  height: 50px;
+  margin-top: 1.4rem;
+  width: 350px;
+  position: relative;
+  left: 3.5rem;
+}
+
+.PassDiv input::placeholder {
+  color: white;
+  font-size: 1.8rem;
+  opacity: 35%;
+}
+
+.CheckboxDiv {
+  margin-left: 39rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CheckboxDiv p {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.CheckboxDiv input {
+  height: 15px;
+  width: 15px;
+  margin-left: 1rem;
+}
